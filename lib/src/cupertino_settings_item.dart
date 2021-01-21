@@ -291,7 +291,7 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
       if (pressed) {
         return iosPressedTileColorLight;
       } else {
-        return Colors.white;
+        return iosTileLightColor;
       }
     } else {
       if (pressed) {
